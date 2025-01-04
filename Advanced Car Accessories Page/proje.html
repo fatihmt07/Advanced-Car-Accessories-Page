@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtoStil Yenilikleri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="ikon.png" type="image/x-icon" width="16" height="16"/>
+    <link rel="stylesheet" href="proje.css">
+</head>
+<body>
+
+
+
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-star" style="color: rgb(255, 50, 50);"></i> OtoStil </a>
+
+    <nav class="navbar">
+        <a href="#">Anasayfa</a>
+        <a href="#urunler">Ürünler</a>
+        <a href="#hakkinda">Hakkında</a>
+        <a href="#inceleme">İnceleme</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <a href="profil.html"> <div id="login-btn" class="fas fa-user"></div></a>
+    </div>
+
+
+</header>
+
+
+
+<section class="home" id="home">
+    <div class="slides-container">
+        <div class="slide active">
+            <div class="content">
+                <span>OtoStil Yenilikleri</span>
+                <h3>Burada aracınıza dilediğiniz aksesuarı bulabilirsiniz. Keyifli alışverişler dileriz.</h3>
+                <a href="#iletisim" class="btn">Daha Fazla</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="araba.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Güvenli Alışveriş</span>
+                <h3>Sizlere güvenli alışveriş ve ödeme fırsatı sunuyoruz.</h3>
+                <a href="#iletisim" class="btn">Daha Fazla</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="guvenlialisveris.png" style="width: 400px; margin-left: 150px;" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>Kolay İade</span>
+                <h3>Ürünü beğenmezseniz veya bozuk gelirse paranız anında iade.</h3>
+                <a href="#iletisim" class="btn">Daha Fazla</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="iade.png" style="width: 400px; margin-left: 150px;" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img decoding="async" src="kol13.png" alt="">
+        <div class="content">
+        <span>Haftanın Yıldızları</span>
+        <h3>%50 İndirim</h3>
+        <a href="odeme.html" class="btn">Satın Al</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="pickup7.png" alt="">
+        <div class="content">
+        <span>Haftanın Yıldızları</span>
+        <h3>%50 İndirim</h3>
+        <a href="odeme.html" class="btn">Satın Al</a>
+    </div>
+    </div>
+
+    <div class="banner">
+        <img decoding="async" src="tavan4.png" alt="">
+        <div class="content">
+        <span>Haftanın Yıldızları</span>
+        <h3>%50 İndirim</h3>
+        <a href="odeme.html" class="btn">Satın Al</a>
+    </div>
+    </div>
+
+</section>
+
+
+
+
+<div class="heading">
+    <h1 id="urunler" name="urunler" alt="urunler">Mağazamız</h1>
+    </div>
+
+<section class="category">
+
+<h1 class="title"> <span>Kategorilerimiz</span> <a href="#iletisim">Daha Fazla >></a> </h1>
+
+<div class="box-container">
+
+    <a href="kromaksesuarlar.html" class="box">
+        <img decoding="async" src="krom-aksesuarlar.png" alt="">
+        <h3>Krom Aksesuarlar</h3>
+    </a>
+
+    <a href="koldayamamodelleri.html" class="box">
+        <img decoding="async" src="kol-dayama.png" alt="">
+        <h3>Kol Dayama Modelleri</h3>
+    </a>
+
+    <a href="paspasmodelleri.html" class="box">
+        <img decoding="async" src="paspas.png" alt="">
+        <h3>Paspas Modelleri</h3>
+    </a>
+
+    <a href="pickupaksesuarlari.html" class="box">
+        <img decoding="async" src="pick-up.png" alt="">
+        <h3>Pick-Up Aksesuarları</h3>
+    </a>
+
+    <a href="tavanurunleri.html" class="box">
+        <img decoding="async" src="tavan.png" alt="">
+        <h3>Tavan Ürünleri</h3>
+    </a>
+
+
+</div>
+
+</section>
+
+
+
+
+<section class="products">
+
+    <h1 class="title"> <span>Çok Satan Ürünlerimiz</span> <a href="#iletisim">Daha Fazla >></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="kromaksesuarlar.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="krom12.jpg" style="margin-top: 30px; border-radius: 7px;" alt="">
+            </div>
+            <div class="content">
+                <h3>OMSA Hyundai Elantra Krom Ayna Kapağı 2 Parça Sinyalsiz 2011-2016 Arası</h3>
+                <div class="price">₺1.800,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="koldayamamodelleri.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="kol5.png" style="margin-top: 30px;" alt="">
+            </div>
+            <div class="content">
+                <h3>OMSA Dacia Sandero Stepway Sürgülü Kol Dayama Siyah 2012-2020 Arası</h3>
+                <div class="price">₺1.690,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="paspasmodelleri.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="paspas14.png" style="margin-top: 30px;" alt="">
+            </div>
+            <div class="content">
+                <h3>Bmw 5 Serisi F10 X Drive 4D Havuzlu Paspas Siyah 2013-2016 Arası</h3>
+                <div class="price">₺1.590,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="paspasmodelleri.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="paspas17.png" style="margin-top: 30px;" alt="">
+            </div>
+            <div class="content">
+                <h3>Mercedes W205 C Cerisi 4D Havuzlu Paspas Siyah 2015 ve Sonrası</h3>
+                <div class="price">₺1.590,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="pickupaksesuarlari.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="pickup4.png" style="margin-top: 30px; border-radius: 7px;" alt="">
+            </div>
+            <div class="content">
+                <h3>Toyota Hilux Bagaj Kapağı Amortisörü 2 Parça 2015 ve Sonrası</h3>
+                <div class="price">₺1.920,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="pickupaksesuarlari.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="pickup9.jpg" style="margin-top: 30px; border-radius: 7px;" alt="">
+            </div>
+            <div class="content">
+                <h3>VW Amarok Ön Kaput Rüzgarlığı 2010-2021 Arası</h3>
+                <div class="price">₺855,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="tavanurunleri.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="tavan5.png" style="margin-top: 30px;" alt="">
+            </div>
+            <div class="content">
+                <h3>VW T6 Transporter Elegance Tavan Çıtası Alüminyum Uzun Şase 2015 ve Sonrası</h3>
+                <div class="price">₺3.510,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="odeme.html" class="fas fa-shopping-cart"></a>
+                <a href="begeni.html" class="fas fa-heart"></a>
+                <a href="tavanurunleri.html" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="tavan10.png" style="margin-top: 30px;" alt="">
+            </div>
+            <div class="content">
+                <h3>Porsche Macan Bold Bar V2 Ara Atkı Gri 2 Parça 127cm 2014 ve Sonrası</h3>
+                <div class="price">₺3.294,00</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+
+
+<div class="heading">
+    <h1 id="hakkinda" name="hakkinda" alt="hakkinda">Hakkımızda</h1>
+    </div>
+
+<section class="about">
+    <div class="img">
+         <img decoding="async" src="tesla.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Sayfamıza Hoşgeldiniz!</span>
+        <h3>Sayfamız Hakkında</h3>
+        <p>Sizlere en iyi şekilde hizmet sunmak için buradayız. Hızlı teslimat ve iade garantimiz bulunmaktadır. Aracınızın güvenliği ve bakımı için doğru adrestesiniz.</p>
+        <p>Tekrardan keyifli alışverişler dileriz.</p>
+        <a href="#iletisim" class="btn">Daha Fazla</a>
+    </div>
+</section>
+
+
+
+<section class="gallery">
+    <h1 class="title"> <span>Galerimiz</span> <a href="#iletisim">Daha Fazla >></a> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img decoding="async" src="galeri1.jpg" style="width: 130%; margin-left: -40px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri2.jpg" style="width: 130%; margin-left: -40px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri3.jpg" style="width: 130%; margin-left: -40px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri4.jpg" style="width: 120%; margin-left: -30px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri5.jpg" style="width: 140%; margin-left: -70px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri6.jpg" style="width: 140%; margin-left: -50px; margin-top: -35px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri7.jpg" style="width: 130%; margin-left: -45px; margin-top: -30px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img decoding="async" src="galeri8.jpg" style="width: 140%; margin-left: -95px;" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="heading">
+    <h1 id="inceleme" name="inceleme" alt="inceleme">Müşteri İncelemesi</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img decoding="async" src="ikon1.png" alt="">
+        <div class="content">
+            <h3>Hızlı Teslimat</h3>
+            <span>20 Dakika İçerisinde</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="ikon2.png" alt="">
+        <div class="content">
+            <h3>7/24 Hizmet</h3>
+            <span>Telefonlarımız Açık</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="ikon3.png" alt="">
+        <div class="content">
+            <h3>Kolay Ödeme</h3>
+            <span>Taksit ve Kredi Kartı</span>
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="review">
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="profil1.png" alt="">
+            <div class="info">
+                <h3 style="font-size: 20px;">Ahmet Bey</h3>
+                <span>Müşteri</span>
+            </div>
+        </div>
+        <p>Diğer firmalara göre daha ucuz ve kesinlikle daha pratik. Bundan sonra aracım için hep buradan alışveriş yapacağım.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="profil2.png" alt="">
+            <div class="info">
+                <h3 style="font-size: 18px;">Seda Hanım</h3>
+                <span>Müşteri</span>
+            </div>
+        </div>
+        <p>Siparişim 10 dakikada kapıma geldi ve üründe hiç bir problem çıkmadı. Çok memnun kaldım</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="profil3.png" alt="">
+            <div class="info">
+                <h3 style="font-size: 20px;">Murat Bey</h3>
+                <span>Müşteri</span>
+            </div>
+        </div>
+        <p>Gerçekten güzel çalışan bir firma. Kesinlikle tavsiye ederim. Çoğu firmaya göre kalitesiz ürünler değil.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="profil4.png" alt="">
+            <div class="info">
+                <h3 style="font-size: 20px;">Ayşe Hanım</h3>
+                <span>Müşteri</span>
+            </div>
+        </div>
+        <p>Fiyat performans açısından çok kaliteli bir firma. Hakkı ödenmez.</p>
+    </div>
+
+</section>
+
+
+
+<div class="heading">
+    <h1 id="iletisim" name="iletisim" alt="iletisim">İletişim</h1>
+</div>
+
+<section class="contact">
+    <div class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Telefon Numaramız</h3>
+            <p>0552 723 65 40</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>Mail Adresimiz</h3>
+            <p>fatihmete7@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Adresimiz</h3>
+            <p>Soğanlı Mh, Bağcılar Cd, Gökçe Sk, Ünal Apt 18/2</p>
+            <p>Bahçelievler/İstanbul</p>
+        </div>
+
+    </div>
+
+     <div class="row">
+         <form action="mesaj.html">
+             <h3>İletişime Geç</h3>
+             <div class="inputBox">
+             <input type="text" placeholder="Adınız" class="box" required>
+             <input type="email" placeholder="Mail Adresiniz" class="box" required>
+            </div>
+            <div class="inputBox">
+               </div>
+               <textarea placeholder="Mesajınız" cols="30" rows="10" required></textarea>
+               <input type="submit" value="Gönder" class="btn">
+         </form>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.573185463406!2d28.86074465417506!3d41.01271424790242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb339c752e89%3A0x52e0d2ba61fa7c!2zU2_En2FubMSxLCBHw7Zrw6dlIFNrLiwgMzQxODMgQmFow6dlbGlldmxlci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1715096136557!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+
+</section>
+
+<div class="space"></div>
+
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Hızlı Linkler</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> Anasayfa</a>
+        <a href="#urunler"> <i class="fas fa-arrow-right"></i> Mağaza</a>
+        <a href="#hakkinda"> <i class="fas fa-arrow-right"></i> Hakkında</a>
+        <a href="#inceleme"> <i class="fas fa-arrow-right"></i> İnceleme</a>
+        <a href="#iletisim"> <i class="fas fa-arrow-right"></i> İletişim</a>
+        </div>
+
+        <div class="box">
+            <h3>Ekstra Linkler</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  Siparişim </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  Favorilerim </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  İsteklerim </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  Hesabım </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i>  Şartlar </a>
+        </div>
+
+        <div class="box">
+            <h3>Bizi Takip Edin</h3>
+            <a href="https://facebook.com/"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://x.com/"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="https://instagram.com/"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="https://linkedin.com/"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="https://pinterest.com/"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+            <h3>Abone Ol</h3>
+            <p>Son Yenilikler İçin Abone Olun</p>
+            <form action="abone.html">
+            <input type="email" placeholder="Mail Adresinizi Giriniz" required>
+            <input type="submit" value="Abone Ol" class="btn">
+            </form>
+            <img decoding="async" src="kart.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit"> <p> Copyright &copy; 2023; Tasarımcı: <span class="designer">Fatih</span></p>Fatih Tarafından Geliştirildi || Her Hakkı Saklıdır</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="proje.js" defer data-deferred="1"></script> </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OtoStil Yenilikleri</title>
+    <link rel="stylesheet" href="odeme.css">
+    <!--Google Fonts and Icons-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="ikon.png" type="image/x-icon" width="16" height="16"/>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="center">
+      <form action="onay.html">
+        <div class="title">Ödeme Yap</div>
+        <span class="inputs">
+          <span class="inputf">
+            <input type="text" class="input" name="card_number" placeholder="1111-2222-3333-4444" required>
+            <span class="label">Kart Numarası</span>
+          </span>
+          <span class="inputf">
+            <input type="datetime" class="input" name="expiry_date" placeholder="AA/YY" required>
+            <span class="label">Son Kullanım Tarihi</span>
+          </span>
+          <span class="inputf">
+            <input type="text" class="input" placeholder="123" required>
+            <span class="label">Güvenlik Kodu</span>
+            <br> </br>
+            <img src="kart.png" style="margin-left: 25px;">
+          </span>
+        </span>
+        <input type="submit" value="Ödeme Yap" class="btn" style="font-size: 17px;">
+      </form>
+    </div>
+
+    <script>
+      var btn = document.querySelector(".btn");
+      var inputs = document.querySelectorAll(".input");
+      btn.onclick = function () {
+        btn.classList.toggle("active");
+        setTimeout(() => {
+          btn.classList.toggle("active");
+          inputs[1].classList.toggle("active");
+        }, 1500);
+        setTimeout(() => {
+          inputs[1].classList.toggle("active");
+        }, 3000);
+      };
+    </script>
+  </body>
+</html>
